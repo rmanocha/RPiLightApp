@@ -25,6 +25,11 @@
                                     <action selector="smallLightTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kr4-ek-ITg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1v-9W-fc2">
+                                <rect key="frame" x="270" y="166" width="61" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Big Light"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

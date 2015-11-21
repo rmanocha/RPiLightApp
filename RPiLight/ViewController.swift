@@ -25,13 +25,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func smallLightTapped(sender: UIButton) {
-        //sender.setTitle("Big Light", forState: UIControlState.Normal)
-        //let request = NSURLRequest(URL: smallLightURL)
-        
-        //var response: NSURLResponse?
-        //var error: NSError?
         get(smallLightURL)
-        
     }
     
     func get(url : String) {
