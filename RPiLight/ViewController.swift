@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         get(smallLightURL)
     }
     
+    @IBAction func bigLightTapped(sender: AnyObject) {
+        get(bigLightURL)
+    }
+
     func get(url : String) {
         let url = NSURL(string: url)
         let request = NSMutableURLRequest(URL: url!);

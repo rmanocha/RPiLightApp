@@ -29,6 +29,9 @@
                                 <rect key="frame" x="270" y="166" width="61" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Big Light"/>
+                                <connections>
+                                    <action selector="bigLightTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pO8-II-7bs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
